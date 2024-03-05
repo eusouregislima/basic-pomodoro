@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./styles.css" />
+    <title>Pomodoro Timer</title>
+  </head>
+  <body>
+    <h1>Dev Pomodoro</h1>
+    <p id="timer">25:00</p>
+    <div>
+      <button id="startButton" onclick="startTimer()">Start</button>
+      <button id="stopButton" onclick="stopTimer()" style="display: none">
+        Stop
+      </button>
+      <button onclick="resetTimer()">Reset</button>
+      <button id="breakButton" onclick="startBreak()">Start Break</button>
+    </div>
+
+    <script src="./script.js"></script>
+  </body>
+</html>
